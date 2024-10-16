@@ -1,0 +1,16 @@
+a=list(map(int,input().split()))
+l=a[0]
+s=a[0]
+for i in range(len(a)):
+    if a[i]>l:
+        l=a[i]
+    if a[i]<s:
+        s=a[i]
+print(l)
+print(s)
+
+
+#output
+2 4 6 3 9 6 4
+9
+2
