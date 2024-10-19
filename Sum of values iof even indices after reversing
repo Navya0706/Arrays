@@ -1,0 +1,8 @@
+a=[10,20,30,40,50,60]
+n=len(a)
+sum=0
+a.reverse()
+for i in range(n):
+    if i%2==0:
+        sum+=a[i]
+print(sum)        
