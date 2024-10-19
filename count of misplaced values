@@ -1,0 +1,8 @@
+h=[1,1,4,2,1,3]
+e=[1,1,1,2,3,4]
+n=len(h)
+count=0
+for i in range(n):
+    if h[i]!=e[i]:
+        count+=1
+print(count)        
