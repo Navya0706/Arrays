@@ -2,6 +2,15 @@ a=[1,2,3,4,5,6,7]
 res=a.reverse()
 print(res)
 
+or
+
+a=[1,2,3,4,5,6,7]
+n=len(a)-1
+for i in range(n//2+1):
+    temp=a[i]
+    a[i]=a[n-i]
+    a[n-i]=temp
+print(a)
 
 or
 
