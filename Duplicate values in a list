@@ -1,0 +1,9 @@
+a=[2,1,2,3,4,3,6]
+unique=[]
+dup=[]
+for i in a:
+    if i not in unique:
+        unique.append(i)
+    else:
+        dup.append(i)
+print(dup)
