@@ -6,3 +6,4 @@ for i in range(n):
     if h[i]!=e[i]:
         count+=1
 print(count)        
+ 
